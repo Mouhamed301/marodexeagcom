@@ -1,0 +1,130 @@
+.reference{
+    overflow: hidden;
+    white-space: nowrap;
+    img{
+        height: 90px;
+        width: 125px;
+        margin: 0 40px;
+    }
+    &:hover{
+        .logo-slide{
+            animation-play-state: paused;
+        }
+    }
+}
+
+.logo-slide{
+    display: inline-block;
+    padding-top: 6vh;
+    animation: 25s slide infinite linear;
+}
+
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.besoin{
+    .img{
+        height: 40%;
+        width: 100%;
+        img{
+            height: 200%;
+            width: 100%;
+        }
+    }
+    margin-top: 5vh;
+    height: 60vh;
+    .containerp{
+        margin-top: 8vh;
+    }
+    .card-body{
+        background-color: black;
+        p{
+            font-size: x-large;
+            color: white;
+            font-weight: bold;
+            .btn{
+                background-color: rgb(102,178,46);
+            }
+        }
+    }
+}
+footer{
+    margin-top: 30vh;
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+    .containerp{
+        height: 100%;
+        width: 100%;
+        .row{
+            height: 100%;
+            width: 100%;
+            .img{
+                height: 100%;
+                width: 100%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .col-4{
+                padding-left: 0%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                ul{
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    li{
+                        color: white;
+                        font-size: x-large;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    position: relative;
+    .contac{
+        display: flex;
+        flex-direction: column;
+        .telephone, .adresse{
+            display: flex;
+            width: 80%;
+            height: 30%;
+            align-items: center;
+            .icon{
+                width: 10%;
+                svg{
+                    background-color: rgb(102,178,46);
+                    width: 100%;
+                    height: 50%;
+                    color: black;
+                }   
+            }
+            p{
+                display: flex;
+                align-items: center;
+                height: 70%;
+                margin-top: 2vh;
+                color: white;
+                margin-left: 5%;
+            }
+        }
+    }
+    .copir{
+        position: absolute;
+        bottom: 0vh;
+        left: 50%;
+    }
+}

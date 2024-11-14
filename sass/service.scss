@@ -1,0 +1,49 @@
+.service{
+    background-color: rgb(102,178,46);
+    margin-top: 10vh;
+    height: 100vh;
+    h2{
+        padding-top: 2vh;
+    }
+    .containerp{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        .row{
+            margin-top: 5vh;
+            display: flex;
+            width: 90%;
+            justify-content: space-around;
+            .col-3{
+                h4{
+                    text-align: center;
+                    color: black;
+                    font-weight: bold;
+                    height: 11vh;
+                    align-items: center;
+                    justify-content: center;
+                    display: flex;
+                }
+                ul{
+                    li{
+                        align-items: center;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+.im{
+    width: 25%;
+    height: 35vh;
+    .img{
+        height: 100%;
+        width: 100%;
+        img{
+            height: 100%;
+            width: 120%;
+        }
+    }
+}

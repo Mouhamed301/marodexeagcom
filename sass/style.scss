@@ -1,0 +1,87 @@
+@import "bootstrap/bootstrap.scss";
+@import "navigation.scss";
+@import "presentations.scss";
+@import "domaine.scss";
+@import "projet.scss";
+@import "service.scss";
+@import "reference.scss";
+@import "bootstrap/variables.scss";
+@import "bloc.scss";
+@import "site.scss";
+
+
+.entete{
+    display: flex;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    .coordone{
+        display: flex;
+        justify-content: space-around;
+        .telephone{
+            display: flex;
+            justify-content: space-around;
+            width: 38%;
+            height: 100%;
+            align-items: center;
+            .icon{
+                width: 10%;
+                svg{
+                    width: 100%;
+                    height: 50%;
+                }   
+            }
+            p{
+                background-color: white;
+                margin-top: 6%;
+            }
+        }
+        .adresse{
+            display: flex;
+            justify-content: space-around;
+            width: 50%;
+            height: 100%;
+            align-items: center;
+            .icon{
+                width: 10%;
+                svg{
+                    width: 100%;
+                    height: 50%;
+                }   
+            }
+            p{
+                background-color: white;
+                margin-top: 5%;
+            }
+        }
+    }
+    .secent{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .devis{
+            height: 60%;
+            background-color: black;
+            color: white;
+        }
+        .reseau{
+            width: 30%;
+            height: 80%;
+            display: flex;
+            margin-right: -10%;
+            justify-content: space-around;
+            align-items: center;
+            .icon{
+                width: 15%;
+                svg{
+                    width: 100%;
+                    height: 65%;
+                }
+            }
+        }
+    }
+}
+
+
+body{
+    background-image: url(img/background.pn);
+}
