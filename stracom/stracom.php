@@ -67,7 +67,7 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="../index.php">Accueil</a>
+          <a class="nav-link" href="../index.html">Accueil</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="services/services.php" role="button" data-bs-toggle="dropdown">Services</a>

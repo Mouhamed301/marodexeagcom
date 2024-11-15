@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -65,7 +65,7 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="index.php">Accueil</a>
+          <a class="nav-link" href="index.html">Accueil</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="services/services.php" role="button" data-bs-toggle="dropdown">Services</a>
@@ -79,7 +79,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="portfolio/porfolio.php">Portfolio</a>
+          <a class="nav-link" href="portfolio/portfolio.php">Portfolio</a>
         </li>  
         <li class="nav-item">
           <a class="nav-link" href="contact.php">Contact</a>
