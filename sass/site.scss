@@ -177,9 +177,15 @@ h2{
         height: 27vh;
         .carousel-inner{
             .tcontact{
-                
+
+            }
+            .active{
+                background-color: red;
             }
         }
+    }
+    .containerp{
+        margin-top: 0vh;
     }
 }
 

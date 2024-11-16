@@ -6,7 +6,7 @@
     .carousel-inner{
         height: 100%;
         .active{
-            background-color: blueviolet;
+            background-color: blue;
             height: 100%;
         }
         .tcontact{
@@ -134,12 +134,18 @@
     .bloc{
         height: 27vh;
         .carousel-inner{
+            .active{
+                
+            }
             .tcontact{
                 top: 25%;
                 left: 12%;
                 font-size: 2.1rem;
             }
         }
+    }
+    .w-100{
+        height: 100%;
     }
     .nb{
         display: none;

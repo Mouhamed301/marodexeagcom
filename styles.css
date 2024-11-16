@@ -10114,7 +10114,7 @@ footer .copir {
 
 @media screen and (max-width: 576px) {
   footer {
-    margin-top: 60vh;
+    margin-top: 35vh;
     line-height: 1;
   }
   footer .containerp .row .imge {
@@ -10165,7 +10165,7 @@ footer .copir {
   height: 100%;
 }
 .bloc .carousel-inner .active {
-  background-color: blueviolet;
+  background-color: blue;
   height: 100%;
 }
 .bloc .carousel-inner .tcontact {
@@ -10291,6 +10291,9 @@ footer .copir {
     top: 25%;
     left: 12%;
     font-size: 2.1rem;
+  }
+  .w-100 {
+    height: 100%;
   }
   .nb {
     display: none;
@@ -10498,6 +10501,12 @@ h2, .h2 {
 @media screen and (max-width: 576px) {
   .bloc {
     height: 27vh;
+  }
+  .bloc .carousel-inner .active {
+    background-color: red;
+  }
+  .containerp {
+    margin-top: 0vh;
   }
 }
 @media screen and (min-width: 576px) {
@@ -10961,4 +10970,4 @@ h2, .h2 {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=styles.css.map */
