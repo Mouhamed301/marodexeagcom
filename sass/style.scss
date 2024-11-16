@@ -8,7 +8,7 @@
 @import "bootstrap/variables.scss";
 @import "bloc.scss";
 @import "site.scss";
-
+@import "bootstrap/navbar.scss";
 
 .entete{
     display: flex;
@@ -58,6 +58,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        width: 100%;
         .devis{
             height: 60%;
             background-color: black;
@@ -81,7 +82,58 @@
     }
 }
 
+.container-fluid{
+    padding-right: 0%;
+    padding-left: 0%;
+    .navbar-brand{
+        padding-top: -5%;
+    }
+}
 
-body{
-    background-image: url(img/background.pn);
+@media screen and (max-width: 576px) {
+    .entete{
+        .coordone{
+            display: none;
+        }
+        .secent{
+            .devis{
+                display: flex;
+                align-items: center;
+            }
+            .reseau{
+                margin-right: 0%;
+            }
+        }
+    }
+    
+}
+
+@media screen and (min-width: 576px) {
+    body{
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        background-color: pink;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background-color: gray;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body{
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    body{
+        background-color: teal;
+    }
 }

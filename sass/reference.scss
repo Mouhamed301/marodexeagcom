@@ -73,7 +73,7 @@ footer{
                     height: 100%;
                 }
             }
-            .col-4{
+            .col-4, .liens{
                 padding-left: 0%;
                 display: flex;
                 justify-content: center;
@@ -126,5 +126,65 @@ footer{
         position: absolute;
         bottom: 0vh;
         left: 50%;
+    }
+}
+
+
+
+@media screen and (max-width: 576px) {
+    footer{
+        margin-top: 60vh;
+        line-height: 1;
+        .containerp{
+            .row{
+                .imge{
+                    display: none;
+                }
+                .liens{
+                    justify-content: flex-start;
+                    ul{
+                        
+                    }
+                }
+            }
+        }
+        .contac{
+            .telephone{
+                height: 50%;
+            }
+            .adresse{
+                width: 85%;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 576px) {
+    body{
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        background-color: pink;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background-color: gray;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body{
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    body{
+        background-color: teal;
     }
 }

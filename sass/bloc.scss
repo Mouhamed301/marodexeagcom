@@ -125,3 +125,65 @@
         }
     }
 }
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .bloc{
+        height: 27vh;
+        .carousel-inner{
+            .tcontact{
+                top: 25%;
+                left: 12%;
+                font-size: 2.1rem;
+            }
+        }
+    }
+    .nb{
+        display: none;
+    }
+    .formulaire{
+        .containerp{
+            .row{
+                .contact{
+                    display: none;
+                }
+            }
+            .dbl-field{
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 576px) {
+    body{
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        background-color: pink;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background-color: gray;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body{
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    body{
+        background-color: teal;
+    }
+}

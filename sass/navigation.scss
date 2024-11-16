@@ -10,6 +10,7 @@
     height: 100%;
     width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 .navbar-brand{
     height: 100%;
@@ -21,6 +22,7 @@
         height: 100%;
     }
 }
+
 .navbar-collapse{
     width: 40%;
     display: flex;
@@ -39,4 +41,51 @@
 }
 .nav-link{
     color: white;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .navbar-brand{
+        height: 120%;
+        width: 40%;
+        margin-top: -2%;
+    }
+    .navbar-collapse {
+        margin-top: -2%;
+        .navbar-nav{
+            background-color: rgba(0, 0, 0, .7);
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (min-width: 576px) {
+    body{
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        background-color: pink;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background-color: gray;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body{
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    body{
+        background-color: teal;
+    }
 }
