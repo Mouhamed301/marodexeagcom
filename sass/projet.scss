@@ -9,7 +9,7 @@
         .row{
             width: 90%;
             height: 50%;
-            .col-3{
+            .col-3, .imge{
                 padding-left: 0%;
                 padding-right: 0%;
                 img{
@@ -18,5 +18,47 @@
                 }
             }
         }
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .projet{
+        .containerp{
+            .row{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 576px) {
+    body{
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        background-color: pink;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background-color: gray;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body{
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    body{
+        background-color: teal;
     }
 }

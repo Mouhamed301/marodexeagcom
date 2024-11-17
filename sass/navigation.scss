@@ -53,6 +53,10 @@
     }
     .navbar-collapse {
         margin-top: -2%;
+        position: absolute;
+        z-index: 2;
+        top: 10vh;
+        width: 100%;
         .navbar-nav{
             background-color: rgba(0, 0, 0, .7);
             width: 100%;

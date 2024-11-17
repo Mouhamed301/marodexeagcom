@@ -132,8 +132,11 @@ footer{
 
 
 @media screen and (max-width: 576px) {
+    .besoin{
+        height: auto;
+    }
     footer{
-        margin-top: 35vh;
+        margin-top: 15vh;
         line-height: 1;
         .containerp{
             .row{
@@ -156,6 +159,9 @@ footer{
                 width: 85%;
             }
         }
+    }
+    .logo-slide{
+        padding-top: 0vh;
     }
 }
 

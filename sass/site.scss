@@ -173,6 +173,21 @@ h2{
 
 
 @media screen and (max-width: 576px) {
+    .seo, .sea{
+        height: 100vh;
+        .int{
+            width: 85%;
+            .para{
+                font-size: 1rem;
+            }
+            .img{
+                h3{
+                    font-size: 7rem;
+                    left: 10%;
+                }
+            }
+        }
+    }
     .bloc{
         height: 27vh;
         .carousel-inner{
@@ -182,16 +197,69 @@ h2{
             .active{
                 background-color: red;
             }
+            .tsite{
+                font-size: 1.7rem;
+            }
         }
     }
     .containerp{
         margin-top: 0vh;
+        height: auto;
+        .row{
+            .illustration{
+                display: none;
+            }
+            .para{
+                p{
+                    font-size: 1.3rem;
+                }
+            }
+            .ime{
+                display: none;
+            }
+        }
+    }
+    .blocsite{
+        height: auto;
+        .containerr{
+            .row{
+                display: flex;
+            }
+        }
+    }
+    h2{
+        padding-top: 0vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .blocsiter{
+        height: auto;
     }
 }
 
 @media screen and (min-width: 576px) {
-    body{
+    .signal{
+        .containers{
+            .row{
+                display: flex;
+                flex-direction: column;
+                .sign{
+                    .vid{
+                        height: 10vh;
+                    }
+                }
+            }
+        }
+    }
+
+    .containerp{
         background-color: blue;
+        .row{
+            .illustration{
+                background-color: red;
+            }
+        }
     }
 }
 

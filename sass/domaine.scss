@@ -47,3 +47,53 @@
         }
     }
 }
+
+
+
+@media screen and (max-width: 576px) {
+    .domaines{
+        height: 150vh;
+        .bloc{
+            .row{
+                height: 90%;
+                .dom{
+                    .img{
+                        img{
+                            height: 110%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 576px) {
+    body{
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        background-color: pink;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background-color: gray;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body{
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    body{
+        background-color: teal;
+    }
+}

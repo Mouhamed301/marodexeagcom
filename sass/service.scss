@@ -15,7 +15,7 @@
             display: flex;
             width: 90%;
             justify-content: space-around;
-            .col-3{
+            .col-md-3, .col-12{
                 h4{
                     text-align: center;
                     color: black;
@@ -45,5 +45,45 @@
             height: 100%;
             width: 120%;
         }
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .service{
+        height: auto;
+    }
+    .im{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    body{
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        background-color: pink;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background-color: gray;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body{
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    body{
+        background-color: teal;
     }
 }
