@@ -3770,6 +3770,7 @@ textarea.form-control-lg {
   }
   .navbar-expand-sm .navbar-nav .dropdown-menu {
     position: absolute;
+    left: 60%;
   }
   .navbar-expand-sm .navbar-nav .nav-link {
     padding-right: 0.5rem;
@@ -3796,6 +3797,7 @@ textarea.form-control-lg {
   }
   .navbar-expand-md .navbar-nav .dropdown-menu {
     position: absolute;
+    left: 60%;
   }
   .navbar-expand-md .navbar-nav .nav-link {
     padding-right: 0.5rem;
@@ -3822,6 +3824,7 @@ textarea.form-control-lg {
   }
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     position: absolute;
+    left: 60%;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0.5rem;
@@ -3848,6 +3851,7 @@ textarea.form-control-lg {
   }
   .navbar-expand-xl .navbar-nav .dropdown-menu {
     position: absolute;
+    left: 60%;
   }
   .navbar-expand-xl .navbar-nav .nav-link {
     padding-right: 0.5rem;
@@ -3874,6 +3878,7 @@ textarea.form-control-lg {
   }
   .navbar-expand-xxl .navbar-nav .dropdown-menu {
     position: absolute;
+    left: 60%;
   }
   .navbar-expand-xxl .navbar-nav .nav-link {
     padding-right: 0.5rem;
@@ -3899,6 +3904,7 @@ textarea.form-control-lg {
 }
 .navbar-expand .navbar-nav .dropdown-menu {
   position: absolute;
+  left: 60%;
 }
 .navbar-expand .navbar-nav .nav-link {
   padding-right: 0.5rem;
@@ -3985,6 +3991,21 @@ textarea.form-control-lg {
   color: #fff;
 }
 
+@media screen and (min-width: 768px) {
+  .navbar-expand-sm .navbar-nav .dropdown-menu {
+    left: 60%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .navbar-expand-sm .navbar-nav .dropdown-menu {
+    left: 75%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .navbar-expand-sm .navbar-nav .dropdown-menu {
+    left: 80%;
+  }
+}
 .card {
   position: relative;
   display: flex;
@@ -9769,7 +9790,6 @@ textarea.form-control-lg {
   justify-content: flex-end;
 }
 .navbar-collapse .navbar-nav {
-  width: 38%;
   display: flex;
   justify-content: space-around;
 }
@@ -9803,29 +9823,27 @@ textarea.form-control-lg {
     width: 100%;
   }
 }
-@media screen and (min-width: 576px) {
-  body {
-    background-color: blue;
-  }
-}
 @media screen and (min-width: 768px) {
-  body {
-    background-color: pink;
+  .navbar-brand {
+    width: 28%;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: x-large;
   }
 }
 @media screen and (min-width: 992px) {
-  body {
-    background-color: gray;
+  .navbar-brand {
+    height: 100%;
+    width: 15%;
+    padding-top: 0%;
+    padding-bottom: 0%;
   }
-}
-@media screen and (min-width: 1200px) {
-  body {
-    background-color: green;
+  .navbar-brand img {
+    width: 100%;
+    height: 100%;
   }
-}
-@media screen and (min-width: 1400px) {
-  body {
-    background-color: teal;
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: large;
   }
 }
 h2, .h2 {
@@ -9869,26 +9887,6 @@ h2, .h2 {
   height: 80%;
 }
 
-@media screen and (min-width: 768px) {
-  body {
-    background-color: pink;
-  }
-}
-@media screen and (min-width: 992px) {
-  body {
-    background-color: gray;
-  }
-}
-@media screen and (min-width: 1200px) {
-  body {
-    background-color: green;
-  }
-}
-@media screen and (min-width: 1400px) {
-  body {
-    background-color: teal;
-  }
-}
 .domaines {
   background-color: black;
   height: 50vh;
@@ -9950,29 +9948,14 @@ h2, .h2 {
     height: 110%;
   }
 }
-@media screen and (min-width: 576px) {
-  body {
-    background-color: blue;
-  }
-}
 @media screen and (min-width: 768px) {
-  body {
-    background-color: pink;
+  .domaines {
+    display: none;
   }
 }
 @media screen and (min-width: 992px) {
-  body {
-    background-color: gray;
-  }
-}
-@media screen and (min-width: 1200px) {
-  body {
-    background-color: green;
-  }
-}
-@media screen and (min-width: 1400px) {
-  body {
-    background-color: teal;
+  .domaines {
+    display: block;
   }
 }
 .projet .containerp {
@@ -10002,29 +9985,10 @@ h2, .h2 {
     flex-direction: column;
   }
 }
-@media screen and (min-width: 576px) {
-  body {
-    background-color: blue;
-  }
-}
 @media screen and (min-width: 768px) {
-  body {
-    background-color: pink;
-  }
-}
-@media screen and (min-width: 992px) {
-  body {
-    background-color: gray;
-  }
-}
-@media screen and (min-width: 1200px) {
-  body {
-    background-color: green;
-  }
-}
-@media screen and (min-width: 1400px) {
-  body {
-    background-color: teal;
+  .projet {
+    display: flex;
+    flex-direction: column;
   }
 }
 .service {
@@ -10082,29 +10046,33 @@ h2, .h2 {
     display: none;
   }
 }
-@media screen and (min-width: 576px) {
-  body {
-    background-color: blue;
-  }
-}
 @media screen and (min-width: 768px) {
-  body {
-    background-color: pink;
+  .service {
+    height: auto;
+  }
+  .containerp .row .imge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .im {
+    width: 40%;
+  }
+  .im .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .im .img img {
+    height: 80%;
+  }
+  footer .containerp .row .imge {
+    display: none;
   }
 }
 @media screen and (min-width: 992px) {
-  body {
-    background-color: gray;
-  }
-}
-@media screen and (min-width: 1200px) {
-  body {
-    background-color: green;
-  }
-}
-@media screen and (min-width: 1400px) {
-  body {
-    background-color: teal;
+  footer .containerp .row .imge {
+    display: block;
   }
 }
 .reference {
@@ -10260,29 +10228,85 @@ footer .copir {
     padding-top: 0vh;
   }
 }
-@media screen and (min-width: 576px) {
-  body {
-    background-color: blue;
-  }
-}
 @media screen and (min-width: 768px) {
-  body {
-    background-color: pink;
+  .besoin {
+    display: none;
+  }
+  .besoin .containerp .row .ime {
+    display: none;
+  }
+  footer {
+    margin-top: 10vh;
+  }
+  footer .containerp .row .liens ul li {
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  footer .contac {
+    justify-content: space-around;
+  }
+  footer .contac .telephone {
+    width: 150%;
+  }
+  footer .contac .telephone p {
+    font-size: x-large;
+  }
+  footer .contac .adresse {
+    width: 110%;
+  }
+  footer .contac .adresse p {
+    font-size: x-large;
   }
 }
 @media screen and (min-width: 992px) {
-  body {
-    background-color: gray;
+  .besoin {
+    display: block;
+    width: 90%;
+    padding-left: 5%;
   }
-}
-@media screen and (min-width: 1200px) {
-  body {
-    background-color: green;
+  .besoin .containerp .row .ime {
+    display: block;
   }
-}
-@media screen and (min-width: 1400px) {
-  body {
-    background-color: teal;
+  footer {
+    margin-top: 30vh;
+  }
+  footer .containerp {
+    height: 100%;
+    width: 100%;
+  }
+  footer .containerp .row {
+    height: 100%;
+    width: 100%;
+  }
+  footer .containerp .row .img {
+    height: 100%;
+    width: 100%;
+  }
+  footer .containerp .row .img img {
+    width: 100%;
+    height: 100%;
+  }
+  footer .containerp .row .col-4, footer .containerp .row .liens {
+    padding-left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .containerp .row .col-4 ul, footer .containerp .row .liens ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  footer .containerp .row .col-4 ul li, footer .containerp .row .liens ul li {
+    color: white;
+    font-size: x-large;
+  }
+  footer .contac .telephone, footer .contac .adresse {
+    width: auto;
+  }
+  footer .contac .telephone p, footer .contac .adresse p {
+    font-size: large;
   }
 }
 .bloc {
@@ -10434,33 +10458,25 @@ footer .copir {
   .formulaire .containerp .row .contact {
     display: none;
   }
-  .formulaire .containerp .dbl-field {
-    flex-direction: column;
-  }
 }
 @media screen and (min-width: 576px) {
-  body {
-    background-color: blue;
+  .formulaire .containerp .row .contact {
+    display: none;
   }
 }
 @media screen and (min-width: 768px) {
-  body {
-    background-color: pink;
+  .bloc .carousel-inner .tcontact {
+    top: 20%;
+    left: 15%;
+    font-size: 5rem;
+  }
+  .bloc .carousel-inner .taccueil {
+    font-size: 2.5rem;
   }
 }
 @media screen and (min-width: 992px) {
-  body {
-    background-color: gray;
-  }
-}
-@media screen and (min-width: 1200px) {
-  body {
-    background-color: green;
-  }
-}
-@media screen and (min-width: 1400px) {
-  body {
-    background-color: teal;
+  .formulaire .containerp .row .contact {
+    display: block;
   }
 }
 .bloc {
@@ -10686,36 +10702,42 @@ h2, .h2 {
 @media screen and (min-width: 576px) {
   .signal .containers .row {
     display: flex;
-    flex-direction: column;
   }
   .signal .containers .row .sign .vid {
     height: 10vh;
   }
-  .containerp {
-    background-color: blue;
-  }
-  .containerp .row .illustration {
-    background-color: red;
-  }
 }
 @media screen and (min-width: 768px) {
-  body {
-    background-color: pink;
+  h2, .h2 {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bloc {
+    height: auto;
+  }
+  .containerp {
+    height: 50vh;
+    margin-top: 0vh;
+  }
+  .containerp .row .illustration .img img {
+    height: 80%;
   }
 }
 @media screen and (min-width: 992px) {
-  body {
-    background-color: gray;
+  .containerp {
+    height: auto;
   }
-}
-@media screen and (min-width: 1200px) {
-  body {
-    background-color: green;
+  .containerp .row .illustration {
+    height: auto;
   }
-}
-@media screen and (min-width: 1400px) {
-  body {
-    background-color: teal;
+  .containerp .row .para {
+    height: auto;
+    font-size: 1.5rem;
+  }
+  .seo .int .para, .sea .int .para {
+    height: auto;
   }
 }
 .navbar {
@@ -10821,6 +10843,7 @@ h2, .h2 {
   }
   .navbar-expand-sm .navbar-nav .dropdown-menu {
     position: absolute;
+    left: 60%;
   }
   .navbar-expand-sm .navbar-nav .nav-link {
     padding-right: 0.5rem;
@@ -10847,6 +10870,7 @@ h2, .h2 {
   }
   .navbar-expand-md .navbar-nav .dropdown-menu {
     position: absolute;
+    left: 60%;
   }
   .navbar-expand-md .navbar-nav .nav-link {
     padding-right: 0.5rem;
@@ -10873,6 +10897,7 @@ h2, .h2 {
   }
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     position: absolute;
+    left: 60%;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0.5rem;
@@ -10899,6 +10924,7 @@ h2, .h2 {
   }
   .navbar-expand-xl .navbar-nav .dropdown-menu {
     position: absolute;
+    left: 60%;
   }
   .navbar-expand-xl .navbar-nav .nav-link {
     padding-right: 0.5rem;
@@ -10925,6 +10951,7 @@ h2, .h2 {
   }
   .navbar-expand-xxl .navbar-nav .dropdown-menu {
     position: absolute;
+    left: 60%;
   }
   .navbar-expand-xxl .navbar-nav .nav-link {
     padding-right: 0.5rem;
@@ -10950,6 +10977,7 @@ h2, .h2 {
 }
 .navbar-expand .navbar-nav .dropdown-menu {
   position: absolute;
+  left: 60%;
 }
 .navbar-expand .navbar-nav .nav-link {
   padding-right: 0.5rem;
@@ -11036,14 +11064,25 @@ h2, .h2 {
   color: #fff;
 }
 
+@media screen and (min-width: 768px) {
+  .navbar-expand-sm .navbar-nav .dropdown-menu {
+    left: 60%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .navbar-expand-sm .navbar-nav .dropdown-menu {
+    left: 75%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .navbar-expand-sm .navbar-nav .dropdown-menu {
+    left: 80%;
+  }
+}
 .entete {
   display: flex;
   padding-left: 0rem;
   padding-right: 0rem;
-}
-.entete .coordone {
-  display: flex;
-  justify-content: space-around;
 }
 .entete .coordone .telephone {
   display: flex;
@@ -11085,7 +11124,6 @@ h2, .h2 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
 }
 .entete .secent .devis {
   height: 60%;
@@ -11120,6 +11158,9 @@ h2, .h2 {
   .entete .coordone {
     display: none;
   }
+  .entete .secent {
+    width: 100%;
+  }
   .entete .secent .devis {
     display: flex;
     align-items: center;
@@ -11128,30 +11169,27 @@ h2, .h2 {
     margin-right: 0%;
   }
 }
-@media screen and (min-width: 576px) {
-  body {
-    background-color: blue;
-  }
-}
 @media screen and (min-width: 768px) {
-  body {
-    background-color: pink;
+  .entete .coordone {
+    height: 6vh;
+  }
+  .entete .coordone .telephone, .entete .coordone .adresse {
+    width: 100%;
+    height: 30%;
+    justify-content: flex-start;
+  }
+  .entete .coordone .telephone .icon, .entete .coordone .adresse .icon {
+    width: 8%;
   }
 }
 @media screen and (min-width: 992px) {
-  body {
-    background-color: gray;
+  .entete .coordone {
+    display: flex;
+    width: 50%;
   }
-}
-@media screen and (min-width: 1200px) {
-  body {
-    background-color: green;
-  }
-}
-@media screen and (min-width: 1400px) {
-  body {
-    background-color: teal;
+  .entete .coordone .telephone, .entete .coordone .adresse {
+    height: 100%;
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=styles.css.map */

@@ -70,30 +70,26 @@
 
 @media screen and (min-width: 576px) {
     body{
-        background-color: blue;
+       
     }
 }
 
 @media screen and (min-width: 768px) {
-    body{
-        background-color: pink;
+    .domaines{
+        display: none;
     }
 }
 
 @media screen and (min-width: 992px) {
-    body{
-        background-color: gray;
+    .domaines{
+        display: block;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    body{
-        background-color: green;
-    }
+    
 }
 
 @media screen and (min-width: 1400px) {
-    body{
-        background-color: teal;
-    }
+    
 }

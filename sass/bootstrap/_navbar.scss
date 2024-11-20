@@ -173,6 +173,7 @@
 
           .dropdown-menu {
             position: absolute;
+            left: 60%;
           }
 
           .nav-link {
@@ -301,6 +302,35 @@
     a:hover,
     a:focus {
       color: $navbar-dark-active-color;
+    }
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+    .navbar-expand-sm{
+      .navbar-nav{
+        .dropdown-menu{
+          left: 60%;
+        }
+      }
+    }
+}
+@media screen and (min-width: 992px) {
+  .navbar-expand-sm{
+    .navbar-nav{
+      .dropdown-menu{
+        left: 75%;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .navbar-expand-sm{
+    .navbar-nav{
+      .dropdown-menu{
+        left: 80%;
+      }
     }
   }
 }

@@ -160,39 +160,53 @@
                     display: none;
                 }
             }
-            .dbl-field{
-                flex-direction: column;
-            }
         }
     }
 }
 
 @media screen and (min-width: 576px) {
-    body{
-        background-color: blue;
+    .formulaire{
+        .containerp{
+            .row{
+                .contact{
+                    display: none;
+                }
+            }
+        }
     }
 }
 
 @media screen and (min-width: 768px) {
-    body{
-        background-color: pink;
+    .bloc{
+        .carousel-inner{
+            .tcontact{
+                top: 20%;
+                left: 15%;
+                font-size: 5rem;
+            }
+            .taccueil{
+                font-size: 2.5rem;
+            }
+        }
     }
 }
 
 @media screen and (min-width: 992px) {
-    body{
-        background-color: gray;
+    .formulaire{
+        .containerp{
+            .row{
+                .contact{
+                    display: block;
+                }
+            }
+        }
     }
 }
 
 @media screen and (min-width: 1200px) {
-    body{
-        background-color: green;
-    }
+    
 }
 
 @media screen and (min-width: 1400px) {
-    body{
-        background-color: teal;
-    }
+    
 }

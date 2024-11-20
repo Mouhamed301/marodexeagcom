@@ -59,31 +59,60 @@
 }
 
 @media screen and (min-width: 576px) {
-    body{
-        background-color: blue;
-    }
+    
 }
 
 @media screen and (min-width: 768px) {
-    body{
-        background-color: pink;
+    .service{
+        height: auto;
+    }
+    .containerp{
+        .row{
+            .imge{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    }
+    .im{
+        width: 40%;
+        .img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                height: 80%;
+            }
+        }
+    }
+    footer{
+        .containerp{
+            .row{
+                .imge{
+                    display: none;
+                }
+            }
+        }
     }
 }
 
 @media screen and (min-width: 992px) {
-    body{
-        background-color: gray;
+    footer{
+        .containerp{
+            .row{
+                .imge{
+                    display: block;
+                }
+            }
+        }
     }
 }
 
 @media screen and (min-width: 1200px) {
-    body{
-        background-color: green;
-    }
+    
 }
 
 @media screen and (min-width: 1400px) {
-    body{
-        background-color: teal;
-    }
+    
 }

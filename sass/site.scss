@@ -243,7 +243,6 @@ h2{
         .containers{
             .row{
                 display: flex;
-                flex-direction: column;
                 .sign{
                     .vid{
                         height: 10vh;
@@ -254,35 +253,66 @@ h2{
     }
 
     .containerp{
-        background-color: blue;
+        
         .row{
             .illustration{
-                background-color: red;
+                
             }
         }
     }
 }
 
 @media screen and (min-width: 768px) {
-    body{
-        background-color: pink;
+    h2{
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .bloc{
+        height: auto;
+    }
+    .containerp{
+        height: 50vh;
+        margin-top: 0vh;
+        .row{
+            .illustration{
+                .img{
+                    img{
+                        height: 80%;
+                    }
+                }
+            }
+        }
     }
 }
 
 @media screen and (min-width: 992px) {
-    body{
-        background-color: gray;
+    .containerp{
+        height: auto;
+        .row{
+            .illustration{
+                height: auto;
+            }
+            .para{
+                height: auto;
+                font-size: 1.5rem;
+            }
+        }
+    }
+    .seo, .sea{
+        .int{
+            .para{
+                height: auto;
+            }
+        }
     }
 }
 
 @media screen and (min-width: 1200px) {
-    body{
-        background-color: green;
-    }
+    
 }
 
 @media screen and (min-width: 1400px) {
-    body{
-        background-color: teal;
-    }
+    
 }
